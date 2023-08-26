@@ -5,14 +5,14 @@ import { styles } from "../style";
 import { navLinks } from "../constants";
 import { logo, menu, close, music, musicIcon } from "../assets";
 
+// Audio element for background music
+const audio = new Audio(music);
+
 const Navbar = () => {
   const [active, setActive] = useState("");
   const [toggle, setToggle] = useState(false);
   const [scrollProgress, setScrollProgress] = useState(0);
   const [isMusicPlaying, setIsMusicPlaying] = useState(false);
-
-  // Audio element for background music
-  const audio = new Audio(music);
 
   useEffect(() => {
     const handleScroll = () => {
