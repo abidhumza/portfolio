@@ -83,7 +83,7 @@ const Works = () => {
         <motion.p
           variants={fadeIn("", "", 0.1, 1)}
           className="mt-3 text-secondary text-[17px]
-          max-w-3xl leading-[30px]"
+          max-w-3xl leading-[30px] text-center sm:text-left"
         >
           Step into a world where ideas come to life through lines of code and pixels on 
           the screen. This is where innovation meets execution, and where digital dreams 
@@ -93,7 +93,7 @@ const Works = () => {
         </motion.p>
       </div>
 
-      <div className="mt-20 flex flex-wrap gap-7">
+      <div className=" mt-20 flex flex-wrap gap-7">
         {projects.map((project, index) => (
           <ProjectCard key={`project-${index}`} index={index} {...project} />
         ))}

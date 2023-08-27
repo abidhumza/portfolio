@@ -9,11 +9,11 @@ import { SectionWrapper } from "../Hoc";
 
 const ServiceCard = ({ index, title, icon }) => {
   return (
-    <Tilt className="xs:w-[250px] w-full">
+    <Tilt className="xs:w-[200px] w-full">
       <motion.div
         variants={fadeIn("right", "spring", 0.5 * index, 0.75)}
-        className="w-full green-pink-gradient p-[1px] 
-        rounded-[20px] shadow-card"
+        className="green-pink-gradient p-[1px] rounded-[20px] 
+        shadow-card"
       >
         <div
           options={{
@@ -51,7 +51,7 @@ const About = () => {
       <motion.p
         variants={fadeIn("", "", 0.1, 1)}
         className="mt-4 text-secondary text-[17px]
-        max-w-3xl leading-[30px]"
+        max-w-3xl leading-[30px] text-center sm:text-left"
       >
         I specialize in developing full-stack web applications and crafting user interfaces that enhance the user experience. 
         With a strong background as an Oracle developer, I bring a deep understanding of database technologies to the projects I work on. 
