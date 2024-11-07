@@ -93,9 +93,9 @@ const Navbar = () => {
             >
               <a
                 href={
-                  link.id === "resume" ? "/Resume.pdf" : `#${link.id || ""}`
+                  link.id === "resume" ? "/Full Stack Resume.pdf" : `#${link.id || ""}`
                 }
-                download={link.id === "resume" ? "My_Resume.pdf" : undefined}
+                download={link.id === "resume" ? "Resume.pdf" : undefined}
                 onClick={(event) => {
                   setActive(link.title);
                 }}

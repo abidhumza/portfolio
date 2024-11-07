@@ -29,7 +29,7 @@ import aarya from "./company/aarya.png";
 
 import DrumKit from "./DrumKit.png";
 import PatternGame from "./PatternGame.png";
-import Tindog from "./Tindog.png";
+import Imagify from "./Imagify.webp";
 
 import linkedin from "./social/linkedin.png";
 import instagram from "./social/instagram.png";
@@ -68,7 +68,7 @@ export {
   aarya,
   DrumKit,
   PatternGame,
-  Tindog,
+  Imagify,
   linkedin,
   instagram,
   arrow,

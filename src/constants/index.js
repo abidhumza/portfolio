@@ -22,7 +22,7 @@ import {
   shopify,
   DrumKit,
   PatternGame,
-  Tindog,
+  Imagify,
   threejs,
   instagram,
   linkedin,
@@ -250,25 +250,37 @@ const projects = [
     source_code_link: "https://abidhumza.github.io/patterngame/",
   },
   {
-    name: "Tindog User Interface",
+    name: "Imagify SaaS - A Platform for Image Enhancement",
     description:
-      "Discover puppy love in a whole new way with TinDog! Unleash the potential for canine connections with our unique user interface designed exclusively for our four-legged friends.",
+      "Imagify is a SaaS platform designed to enhance and optimize images with ease. Leveraging advanced algorithms, Imagify improves image quality by adjusting sharpness, brightness, and clarity while reducing noise and file size.over puppy love in a whole new way with TinDog! Unleash the potential for canine connections with our unique user interface designed exclusively for our four-legged friends.",
     tags: [
       {
-        name: "HTML",
+        name: "NextJs",
         color: "blue-text-gradient",
       },
       {
-        name: "JS",
+        name: "ReactJS",
         color: "green-text-gradient",
       },
       {
-        name: "CSS",
+        name: "Cloudinary",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Clerk",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Vercel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Stripe",
         color: "pink-text-gradient",
       },
     ],
-    image: Tindog,
-    source_code_link: "https://abidhumza.github.io/tindog/",
+    image: Imagify,
+    source_code_link: "https://imagify-seven-beryl.vercel.app/",
   },
 ];
 
